@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import  dracula  from '../../constants/Colors';
 
 export const style = StyleSheet.create({
     container: {
@@ -10,17 +11,17 @@ export const style = StyleSheet.create({
     },
     username: {
         fontSize: 20,
-        color: 'green',
+        color: dracula.green,
     },
     character: {
         fontSize: 20,
-        color: '#fff',
+        color: dracula.foreground,
     },
     perfil: { 
         width: 50,
         height: 50,
         borderRadius: 25,
-        borderColor: 'red',
+        borderColor: dracula.background,
         marginRight: 10,
         resizeMode: 'stretch',
         overflow: "hidden",
